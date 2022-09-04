@@ -1,0 +1,109 @@
+/*headre*/
+.header{
+	position: fixed;
+	height: 50px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: lightgray;
+}
+.logo {
+	color: red;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 15px;
+	margin-right: 200px;
+}
+.nav {
+	display: inline-block;
+}
+.nav-li {
+	margin-left: 15px;
+	display: inline-block;
+}
+
+/*section1*/
+.section1{
+	margin-top: 70px;
+}
+.section1-div{
+	width: 1160px;
+	height: 410px;
+	background-color: lightgray;
+	margin: 0 auto;
+}
+.h2-1{
+	margin-bottom: 25px;
+}
+.div-box1{
+	display: inline-block;
+	height: 360px;
+	width: 360px;
+}
+.div-box2{
+	display: inline-block;
+	height: 360px;
+	width: 360px;
+	margin-left: 35px;
+
+}
+.div-box3{
+	display: inline-block;
+	height: 360px;
+	width: 360px;
+	margin-left :36px ;
+}
+.section1-photo1{
+	width: 360px;
+	height: 180px;
+	
+}
+.section1-photo2{
+	width: 360px;
+	height: 180px;
+	
+
+}
+.section1-photo3{
+	width: 360px;
+	height: 180px;	
+}
+.div-text1{
+	margin: 0 auto;
+	margin-top:60px;
+	width: 300px;
+	color: #808080;
+}
+.div-text2{
+	margin: 0 auto;
+	margin-top:60px;
+	width: 300px;
+	color: #808080;
+}
+.div-text3{
+	margin: 0 auto;
+	margin-top:60px;
+	width: 300px;
+	color: #808080;
+}
+.icon{
+	
+	margin-top: 15px;
+	margin-left: 35px;
+	height: 10px;
+	width: 10px;
+}
+.text-span{
+	color:#808080 ;
+	font-size: 15px;
+}
+.relative-div {
+	position: relative;
+
+}
+.absolute-div {
+	position: absolute;
+	top: 50px;
+	left: 20px;
+	color: white;
+}
