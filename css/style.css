@@ -1,4 +1,7 @@
 /*headre*/
+body {
+	background-color: #F3F2F7;
+}
 .header{
 	position: fixed;
 	height: 50px;
@@ -6,6 +9,7 @@
 	left: 0;
 	width: 100%;
 	background-color: lightgray;
+	z-index: 1000;
 }
 .logo {
 	color: red;
@@ -29,29 +33,32 @@
 .section1-div{
 	width: 1160px;
 	height: 410px;
-	background-color: lightgray;
+	background-color: #F3F2F7;
 	margin: 0 auto;
 }
 .h2-1{
-	margin-bottom: 25px;
+	font-size: 20px;
+	margin-bottom: 30px;
 }
 .div-box1{
 	display: inline-block;
 	height: 360px;
 	width: 360px;
+	background-color: white;
 }
 .div-box2{
 	display: inline-block;
 	height: 360px;
 	width: 360px;
 	margin-left: 35px;
-
+	background-color: white;
 }
 .div-box3{
 	display: inline-block;
 	height: 360px;
 	width: 360px;
 	margin-left :36px ;
+	background-color: white;
 }
 .section1-photo1{
 	width: 360px;
@@ -106,4 +113,105 @@
 	top: 50px;
 	left: 20px;
 	color: white;
+}
+
+/*section2*/
+.h2-2{
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.section2-div{
+	width: 1160px;
+	height: 950px;
+	margin: 0 auto;
+	margin-top: 50px;
+/*	background-color: #DAD9E6;
+*/}
+.sec2foto1{
+	width: 760px;
+	height: 430px;
+	margin-bottom: 38px;
+}
+.sec2foto2{
+	width: 760px;
+	height: 430px;
+}
+.sec2divbox1{
+	display: inline-block;
+	width: 760px;
+}
+.sec2divbox2{
+	display: inline-block;
+	width: 300px;
+	margin-left: 66px;
+}
+.sec2foto3{
+	width: 330px;
+	height: 180px;
+	margin-bottom: 100px;
+}
+.sec2foto4{
+	width: 330px;
+	height: 180px;
+	margin-bottom: 100px;
+
+}
+.sec2foto5{
+	width: 330px;
+	height: 180px;
+	margin-bottom: 127px;	
+}
+
+/*footer*/
+.footer{
+	margin-top: 50px;
+	height: 160px;
+	background-color:#505054 ;
+}
+/*.logo2{
+	padding-top: 50px;
+	padding-left: 50px;
+}
+*/
+.footerdiv-one{
+	padding-left: 50px;
+	padding-top: 50px;
+}
+.footer-div1{
+	display: inline-block;
+	vertical-align: top;
+	color: #A9A9B0;
+
+}
+.footer-div2{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 80px;
+}
+.footer-div3{
+	display: inline-block;
+	margin-left: 80px;
+}
+.footer-div4{
+	display: inline-block;
+	margin-left: 80px;
+}
+.footer-div5{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 80px;
+	color: #A9A9B0;
+}
+.footer-div6{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 50px;
+}
+.li{
+	margin-bottom: 8.5px;
+	color: #A9A9B0;
+}
+.icon{
+	width: 16px;
+	height: 16px;
 }
