@@ -41,12 +41,16 @@ body {
 	margin-bottom: 30px;
 }
 .div-box1{
+	transition-property: all;
+	transition-duration: 2s;
 	display: inline-block;
 	height: 360px;
 	width: 360px;
 	background-color: white;
 }
 .div-box2{
+	transition-property: all;
+	transition-duration: 2s;
 	display: inline-block;
 	height: 360px;
 	width: 360px;
@@ -54,6 +58,8 @@ body {
 	background-color: white;
 }
 .div-box3{
+	transition-property: all;
+	transition-duration: 2s;
 	display: inline-block;
 	height: 360px;
 	width: 360px;
@@ -214,4 +220,14 @@ body {
 .icon{
 	width: 16px;
 	height: 16px;
+}
+/*hovers*/
+.div-box1:hover{
+	transform: scale(1.17 , 1.17);
+}
+.div-box2:hover{
+	transform: scale(1.17 , 1.17);
+}
+.div-box3:hover{
+	transform: scale(1.17 , 1.17);
 }
